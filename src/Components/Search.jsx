@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -17,10 +18,10 @@ const Search = ({ onSearch }) => {
   return (
     <form
       onSubmit={handleSearchSubmit}
-      className="flex flex-row-reverse items-center justify-center p-3"
+      className="flex flex-row-reverse items-center justify-center px-3 mx-2.5 shadow-lg"
     >
       <input
-        className="bg-white w-full p-4 text-veryDarkBlue text-lg font-light placeholder:text-base placeholder:text-darkGray dark:text-white dark:bg-veryDarkBlue outline-none"
+        className="bg-white w-full p-4 text-veryDarkBlue text-lg font-semibold placeholder:font-light placeholder:text-base placeholder:text-darkGray dark:text-white dark:bg-veryDarkBlue outline-none"
         type="text"
         value={searchTerm}
         onChange={handleSearchChange}

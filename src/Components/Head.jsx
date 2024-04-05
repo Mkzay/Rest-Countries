@@ -3,7 +3,7 @@ import { faMoon } from "@fortawesome/free-regular-svg-icons";
 
 const Head = () => {
   return (
-    <div className="flex items-center justify-between py-6 px-3 font-Nun text-veryDarkBlue dark:text-white bg-white shadow-md">
+    <div className="flex items-center justify-between py-6 px-3 font-Nun text-veryDarkBlue dark:text-white bg-white shadow-lg md:px-10">
       <div>
         <h1 className="text-lg font-extrabold">Where in the world?</h1>
       </div>
