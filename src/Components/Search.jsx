@@ -21,14 +21,14 @@ const Search = ({ onSearch }) => {
       className="flex flex-row-reverse items-center justify-center px-3 mx-2.5 shadow-lg"
     >
       <input
-        className="bg-white w-full p-4 text-veryDarkBlue text-lg font-semibold placeholder:font-light placeholder:text-base placeholder:text-darkGray dark:text-white dark:bg-veryDarkBlue outline-none"
+        className="bg-white w-full h-[3.7rem] p-4 text-veryDarkBlue text-lg font-semibold placeholder:font-light placeholder:text-base placeholder:text-darkGray dark:text-white dark:bg-darkBlue outline-none"
         type="text"
         value={searchTerm}
         onChange={handleSearchChange}
         placeholder="Search for a country..."
       />
       <button
-        className="p-4 bg-white text-darkGray dark:text-white dark:bg-veryDarkBlue"
+        className="p-4 h-[3.7rem] bg-white text-darkGray dark:text-white dark:bg-darkBlue"
         type="submit"
       >
         <FontAwesomeIcon
